@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Mini Project RevoU</title>
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <p>Masukkan suhu derajat Celcius (°C) ke kotak dibawah, lalu klik tombol Konversi <br>untuk mendapatkan
+                hasil
+                konversi dalam bentuk Fahrenheit(°F).</p>
+
+
+            <div class="celcius">
+                <label for="celcius" id="labelCelcius">Celcius (°C) :</label>
+                <textarea name="celcius" id="celcius" cols="10" rows="7"></textarea>
+                <label for="rumusFah2" id="labelRumusFah2">Fahrenheit (°F) :</label>
+                <textarea name="rumusFah2" id="rumusFah2" cols="10" rows="7"></textarea>
+            </div>
+
+            <div class="tombol">
+                <button id="konversi" class="konversi">Konversi</button>
+                <button id="reset" class="reset">Reset</button>
+                <button id="reverse" class="reverse">Reverse</button>
+            </div>
+
+            <div class="fahrenheit">
+                <label for="rumusFah" id="labelRumusFah">Fahrenheit (°F) :</label>
+                <textarea name="rumusFah" id="rumusFah" cols="10" rows="7"></textarea>
+                <label for="celcius2" id="labelCelcius2">Celcius (°C) :</label>
+                <textarea name="celcius2" id="celcius2" cols="10" rows="7"></textarea>
+            </div>
+
+            <div class="kalkulasi">
+                <label for="kalkulasi">Cara Kalkulasi</label>
+                <textarea name="kalkulasi" id="kalkulasi" cols="10" rows="7"></textarea>
+            </div>
+
+            <div class="keterangan">
+
+                <h3 id="text-judul"><b>Cara Konversi Dari Celsius (°C) ke Fahrenheit (°F)</b></h3>
+                <hr>
+                <p id="text-info">Suhu <b><i>S</i></b> dalam derajat Fahrenheti (°F) sama dengan suhu <b><i>S</i></b>
+                    dalam derajat
+                    <br>
+                    Celcius (°C) kali <b>9/5</b> tambah <b>32.</b><br><br>
+                    <b><i>S</i>(°F) = (<i>S</i>(°C) x 9/5) + 32</b> <br>
+                    atau <br>
+                    <b><i>S</i>(°F) = (<i>S</i>(°C) x 1.8) + 32</b>
+                </p>
+            </div>
+        </div>
+
+    </main>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

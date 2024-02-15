@@ -1,0 +1,31 @@
+.celcius,
+.fahrenheit,
+.kalkulasi {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 0;
+}
+
+#celcius,
+#rumusFah,
+#kalkulasi,
+#celcius2,
+#rumusFah2 {
+  margin-top: 1rem;
+  width: 30%;
+}
+
+.tombol {
+  display: flex;
+  margin: 1rem 0;
+  gap: 1rem;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+#celcius2,
+#rumusFah2 {
+  display: none;
+}
